@@ -1,0 +1,12 @@
+{
+  "name": "More Country Ranks",
+  "id": "",
+  "version": "1.2",
+  "supported_game_version": "1.7.*",
+  "short_description": "",
+  "tags": [],
+  "relationships": [],
+  "game_custom_data": {
+    "multiplayer_synchronized": true
+  }
+}
