@@ -15,7 +15,7 @@
 
 hyperpower = {
 	rank_value = 9
-	icon_index = 4
+	icon_index = 6
 	
 	enforce_subject_rank_check = yes
 	
@@ -45,7 +45,7 @@ hyperpower = {
 
 superpower = {
 	rank_value = 8
-	icon_index = 4
+	icon_index = 5
 	
 	enforce_subject_rank_check = yes
 	
