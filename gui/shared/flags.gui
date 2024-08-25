@@ -145,7 +145,7 @@ types flags
 			using = change_level_flag_animation
 		}
 		icon = {
-			visible = "[EqualTo_int32(Country.GetRankIconIndex, '(int32)5')]"
+			visible = "[EqualTo_int32(Country.GetRankIconIndex, '(int32)6')]"
 			texture = "gfx/interface/flag/power_rank_06.dds"
 			size = { 100% 100% }
 			using = change_level_flag_animation

@@ -7,31 +7,22 @@
 # possible = {} must evaluate to true for rank to be able to be assigned
 # can_colonize = whether a country of this rank can colonize
 # diplo_pact_cost = Diplomatic pacts with country of this rank have their cost multiplied by 1 + this amount
-
 ################
 ## RECOGNIZED ##
 ################
-
-
 hyperpower = {
 	rank_value = 9
 	icon_index = 6
-	
 	enforce_subject_rank_check = yes
-	
-	diplo_pact_cost = 2.0
-	
-	prestige_average_threshold = 45.0
+	diplo_pact_cost = 2
+	prestige_average_threshold = 50
 	prestige_relative_threshold = 1.5
-	
-	infamy_aggressor_scaling = 1.0
-	infamy_target_scaling = 1.0
-
+	infamy_aggressor_scaling = 1
+	infamy_target_scaling = 1
 	valid_country_types = {
 		recognized
 		colonial
 	}
-	
 	modifier = {
 		country_influence_add = 4000
 		country_diplomatic_play_maneuvers_add = 250
@@ -46,22 +37,16 @@ hyperpower = {
 superpower = {
 	rank_value = 8
 	icon_index = 5
-	
 	enforce_subject_rank_check = yes
-	
-	diplo_pact_cost = 2.0
-	
-	prestige_average_threshold = 15.0
-	prestige_relative_threshold = 1.0
-	
-	infamy_aggressor_scaling = 0.40
-	infamy_target_scaling = 0.40
-
+	diplo_pact_cost = 2
+	prestige_average_threshold = 25
+	prestige_relative_threshold = 1
+	infamy_aggressor_scaling = 0.4
+	infamy_target_scaling = 0.4
 	valid_country_types = {
 		recognized
 		colonial
 	}
-	
 	modifier = {
 		country_influence_add = 2000
 		country_diplomatic_play_maneuvers_add = 150
