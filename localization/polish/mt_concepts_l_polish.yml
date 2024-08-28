@@ -1,0 +1,18 @@
+﻿l_polish:
+
+superpower:1 "[concept_superpower]"
+superpower_desc:0 "[concept_superpower_desc]"
+
+concept_superpower: "Supermocarstwo"
+concept_superpower:0 "Supermocarstwo"
+concept_superpowers:1 "Supermocarstwa"
+concept_superpower_desc:3 "W sferze wpływów geopolitycznych i globalnej dominacji istnieje wybrana grupa narodów, które górują nawet nad najpotężniejszymi [Concept('concept_great_power','$concept_great_powers$')]. Te wybitne[Concept('concept_country', '$concept_countries$')] nie są ograniczone jedynie definicją słowa [Concept('concept_great_power','$concept_great_power$')]; przekraczają ją, zyskując znakomity tytuł supermocarstwa. Te supermocarstwa trzymają stery globalnego przeznaczenia, kształtując prądy polityki międzynarodowej dzięki swojemu ogromnemu zasięgowi i niezrównanym zasobom. [AddLocalizationIf(GetPlayer.IsValid,'concept_superpower_desc_added')]"
+concept_superpower_desc_added:0 "\n\n$concept_superpowers$ daje następujące korzyści:\n[GetRankModifier('superpower').GetDesc]"
+
+hyperpower:1 "[concept_hyperpower]"
+hyperpower_desc:0 "[concept_hyperpower_desc]"
+
+concept_hyperpower: "Hipermocarstwo"
+concept_hyperpower:0 "Hipermocarstwo"
+concept_hyperpowers:1 "Hipermocarstwa"
+concept_hyperpower_desc:3 "W sferze globalnej hegemonii istnieje szczebel jeszcze wyższy niż [Concept('concept_superpower','$concept_superpowers$')]. Te niezwykłe [Concept('concept_country', '$concept_countries$')] nie są zwykłymi [Concept('concept_superpower','$concept_superpower$')]; osiągają niezrównany status hiperpotęgi. Hiperpotęga dyktuje globalny porządek, sprawując wpływy i kontrolę, które kształtują samą strukturę stosunków międzynarodowych. Ich supremacja jest niezrównana, a ich panowanie jest wszechstronne, sterując biegiem wydarzeń światowych z absolutną władzą. [AddLocalizationIf(GetPlayer.IsValid,'concept_hyperpower_desc_added')]"
