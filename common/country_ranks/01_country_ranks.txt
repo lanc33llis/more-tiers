@@ -17,8 +17,8 @@ hyperpower = {
 	diplo_pact_cost = 2
 	prestige_average_threshold = 50
 	prestige_relative_threshold = 1.5
-	infamy_aggressor_scaling = 1
-	infamy_target_scaling = 1
+	infamy_aggressor_scaling = 0.4
+	infamy_target_scaling = 0.4
 	valid_country_types = {
 		recognized
 		colonial
@@ -41,8 +41,8 @@ superpower = {
 	diplo_pact_cost = 2
 	prestige_average_threshold = 25
 	prestige_relative_threshold = 1
-	infamy_aggressor_scaling = 0.4
-	infamy_target_scaling = 0.4
+	infamy_aggressor_scaling = 0.3
+	infamy_target_scaling = 0.3
 	valid_country_types = {
 		recognized
 		colonial
